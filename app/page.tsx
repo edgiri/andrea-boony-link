@@ -3,14 +3,11 @@ import AgeGate from "./components/AgeGate";
 import SocialMenu from "./components/SocialMenu";
 
 const trackingLinks: Record<string, string> = {
-  va2049: "https://onlyfans.com/erinmiajames/c9",
-  va2048: "https://onlyfans.com/erinmiajames/c8",
-  va2045: "https://onlyfans.com/erinmiajames/c7",
-  va2037: "https://onlyfans.com/erinmiajames/c6",
-  va1525: "https://onlyfans.com/erinmiajames/c5",
-  p:      "https://onlyfans.com/erinmiajames/c10",
-  lu:     "https://onlyfans.com/erinmiajames/c4",
-  default: "https://onlyfans.com/erinmiajames",
+  ig1: "https://onlyfans.com/boonyex/c3",
+  ig2: "https://onlyfans.com/boonyex/c4",
+  ig3: "https://onlyfans.com/boonyex/c5",
+  ig4: "https://onlyfans.com/boonyex/c6",
+  default: "https://onlyfans.com/boonyex",
 };
 
 const BadgeVerified = () => (
@@ -60,7 +57,7 @@ export default async function Page({
   const { ref } = await searchParams;
   const LINK_MAIN = trackingLinks[ref ?? ""] ?? trackingLinks["default"];
 
-  const NAME = "Erin Mia James";
+  const NAME = "Andrea Boonyex";
   const LINK_TG = "https://t.me/+GjGJj2dorOEzNTE1";
   const LINK_TIKTOK = "https://www.tiktok.com/@itserinmiajames";
   const LINK_FB = "https://www.facebook.com/ErinMiaJames/";
@@ -80,7 +77,7 @@ export default async function Page({
 
         {/* HERO */}
         <div style={{ position: "relative", width: "100%", height: "clamp(320px, 70vw, 440px)" }}>
-          <Image src="/avatar.jpg" alt="Erin Mia James" fill priority style={{ objectFit: "cover", objectPosition: "top" }} />
+          <Image src="/avatar.jpg" alt="Andrea Boonyex" fill priority style={{ objectFit: "cover", objectPosition: "top" }} />
           <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "65%", background: "linear-gradient(to bottom, transparent, #000)" }} />
 
           <div style={{ position: "absolute", bottom: 58, left: 0, right: 0, textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
