@@ -7,6 +7,7 @@ const trackingLinks: Record<string, string> = {
   ig2: "https://onlyfans.com/boonyex/c4",
   ig3: "https://onlyfans.com/boonyex/c5",
   ig4: "https://onlyfans.com/boonyex/c6",
+  tt1: "https://onlyfans.com/boonyex/c7",
   default: "https://onlyfans.com/boonyex",
 };
 
@@ -59,7 +60,7 @@ export default async function Page({
 
   const NAME = "Andrea Boonyex";
   const LINK_TG = "https://t.me/+GjGJj2dorOEzNTE1";
-  const LINK_TIKTOK = "https://www.tiktok.com/@itserinmiajames";
+  const LINK_TIKTOK = "https://www.tiktok.com/";
   const LINK_FB = "https://www.facebook.com/ErinMiaJames/";
 
   const IG_ACCOUNTS = [
