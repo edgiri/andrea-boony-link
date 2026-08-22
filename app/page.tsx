@@ -99,9 +99,7 @@ export default async function Page({
 
           <div style={{ position: 'relative', width: '100%' }}>
           <div style={{ position: 'absolute', top: 8, left: 8, zIndex: 10 }}>
-            <svg width='22' height='22' viewBox='0 0 24 24' fill='white' style={{ filter: 'drop-shadow(0 1px 3px rgba(0,0,0,0.8))' }}>
-              <path d='M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-.5 6.5c2.072 0 3.5 1.343 3.5 3s-1.428 3-3.5 3S8 11.157 8 9.5 9.428 6.5 11.5 6.5zm0 13c-2.757 0-5.187-1.333-6.702-3.4C6.2 14.695 8.742 14 11.5 14s5.3.695 6.702 2.1C16.687 18.167 14.257 19.5 11.5 19.5z'/>
-            </svg>
+            <img src="/onlyfans.png" style={{ width: 22, height: 22, filter: "drop-shadow(0 1px 3px rgba(0,0,0,0.8))" }} />
           </div>
           <AgeGate href={LINK_MAIN}>
             <Image src="/card.jpg" alt="exclusive" width={900} height={500} style={{ width: "100%", height: "clamp(160px, 40vw, 220px)", objectFit: "cover", display: "block", borderRadius: 16 }} />
