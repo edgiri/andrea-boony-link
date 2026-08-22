@@ -8,6 +8,8 @@ const trackingLinks: Record<string, string> = {
   ig3: "https://onlyfans.com/boonyex/c5",
   ig4: "https://onlyfans.com/boonyex/c6",
   tt1: "https://onlyfans.com/boonyex/c7",
+  fb1: "https://onlyfans.com/boonyex/c8",
+  tw1: "https://onlyfans.com/boonyex/c9",
   default: "https://onlyfans.com/boonyex",
 };
 
